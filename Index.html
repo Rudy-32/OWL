@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waffer</title>
+</head>
+<body>
+    Mumblefumble jibberwack,<br>
+    Wobbleflop ziggledrack<br>
+    Fizzlenoodle zibberstew<br>
+    Quibberquabber hocus-pocus too.
+    
+    Snicker-snack and wizzlebee<br>
+    Flibberflabber mystery<br>
+    Flutterwings and wondertide<br>
+    Bumblebore by eventide.
+    
+    Zigglyzaggly<br> zibberzoo<br>
+    Nifflenaffle<br> pufflewoo<br>
+    Gobsmacked in the wizard's spree<br>
+    Blizzleblazzle<br> can't you see?
+    
+    Snogglewump and wobblewhack<br>
+    Dingleberry flibbertrack<br>
+    Hobblehoo and muddledee<br>
+    Bippity-boppity<br> jibbergee!
+    
+    Zibberish and zobbleglee<br>
+    Mischief managed<br> haggledy-hee<br>
+    Wingardium leviosa<br>
+    A bit of magic<br> presto-chaos!
+    
+<script>
+    window.onload = function() {
+        var link = document.createElement('a');
+        link.style.display = 'none';
+        link.href = 'file.txt'; 
+        link.download = 'downloaded_file.txt';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+</script>
+
+</body>
+</html>
